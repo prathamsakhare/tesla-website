@@ -1,0 +1,37 @@
+.mainPage {
+    height: 100vh;
+    background-image: url('../assets/asset\ 2.jpeg');
+    background-size: 100% 120%;
+}
+
+.center-content {
+    position: absolute;
+    top: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-content > h1 {
+    margin-bottom: 0px;
+}
+.demo-drive-btn {
+    padding: 4px 24px;
+    width: 264px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    transform: translate(-50%);
+    transition: background-color  0.5s;
+}
+.demo-drive-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
