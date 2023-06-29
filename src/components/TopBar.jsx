@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles/topBar.css'
+// import '../styles/topBar.css';
+import '../App.css'
 const TopBar = () => {
   return (
     <div className='topBar primary-text-color'>

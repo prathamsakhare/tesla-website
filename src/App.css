@@ -39,3 +39,24 @@
   border: none
 
 };
+
+
+.topBar{
+  background: linear-gradient(to top, #536976, #292e49); 
+  height: 35px;
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap : 10px;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap : 10px;
+}
+.content > p > a {
+  color: #fff;
+}
