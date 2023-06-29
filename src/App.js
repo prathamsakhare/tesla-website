@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="App">
         <div className="upperSection">
-          <TopBar />
+          {/* <TopBar /> */}
           <Navbar />
         </div>
         <div id="modelS">
